@@ -1,13 +1,14 @@
 # One Word, First Thought
 #
-# This entry prints exactly one word to stdout.
-# The output never changes between runs: no input is read,
-# no randomness is used, and no arguments are required.
-# Run it with: python3 main.py
+# This program writes exactly one word to standard output.
+# It takes no input, reads no files, and uses no randomness,
+# so every run produces exactly the same single word.
 #
-# The output is the entry itself: one word, the first thought.
-# Nothing else is printed, and the process exits normally.
-# The word is kept byte-identical on purpose so the result
-# is reproducible on every machine and every run.
+# The word lives in the print statement below and nowhere else.
+# Nothing is printed before it and nothing after it.
+# The process ends normally right after the word appears.
+# The first thought of the day is not a plan or a goal.
+# It is the button that buys five more minutes.
+# Run it with: python3 main.py
 # Exactly one word on stdout.
-print("Coffee.")
+print("Snooze.")
